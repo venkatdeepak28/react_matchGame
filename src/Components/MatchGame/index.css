@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+  height: 105vh;
+}
+
+.nav-bar {
+  height: 12vh;
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.logo-para {
+  color: white;
+  font-size: 48px;
+  font-family: 'Roboto';
+}
+
+.extra {
+  color: white;
+  font-size: 24px;
+}
+
+.score-para {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 24px;
+  color: #fec653;
+}
+
+.timer-logo {
+  height: 45px;
+  margin-right: 16px;
+  margin-left: 26px;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 95vh;
+}
+
+.main-img {
+  height: 40vh;
+
+  margin-bottom: 2%;
+}
+
+.list-prop {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80vw;
+}
+
+.custom-btn {
+  background-color: transparent;
+  border: 0;
+  padding: 20px;
+}
+
+.inner-img {
+  height: 150px;
+}
+
+.list-el {
+  margin-top: 0;
+}
+
+.para {
+  margin-right: 24px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 24px;
+  border: 0;
+  background-color: transparent;
+}
+
+.highlight {
+  border-bottom: 4px solid #fec653;
+  color: #fec653;
+}
+
+.images-list {
+  max-width: 40vw;
+}
+
+.list-nav{
+  display: flex;
+  list-style: none;
+}
